@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_edit_bio"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusedByDefault="true"
+        android:hint="Masukkan Bio"
+        app:endIconMode="clear_text"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_bio"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:text="Simpan"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

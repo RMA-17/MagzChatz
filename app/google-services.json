@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "216053513602",
+    "firebase_url": "https://chatapp-defbe-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chatapp-defbe",
+    "storage_bucket": "chatapp-defbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216053513602:android:89dc6e3567eaab99a3e39b",
+        "android_client_info": {
+          "package_name": "com.rmaprojects.magzchatz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216053513602-on24hei4l4pfnaeqogfv7h3rmfqg46ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB95Yw6vPz8p0klorOQNYHQ6rbn4yoIHFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216053513602-on24hei4l4pfnaeqogfv7h3rmfqg46ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

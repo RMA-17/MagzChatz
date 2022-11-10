@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/chat_sender"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sender_bubble"
+            android:layout_width="wrap_content"
+            android:enabled="false"
+            app:errorEnabled="false"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:hintEnabled="false"
+            app:boxBackgroundColor="?colorPrimaryContainer"
+            app:boxCornerRadiusBottomEnd="16dp"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:textColor="?colorOnPrimaryContainer"
+                android:layout_width="match_parent"
+                tools:text="Hello World"
+                android:layout_height="match_parent"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_clock_sender"
+            android:layout_width="wrap_content"
+            tools:text="12:00"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chat_receiver"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:background="?selectableItemBackground"
+        android:gravity="end"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/receiver_bubble"
+            android:layout_width="wrap_content"
+            android:enabled="false"
+            app:errorEnabled="false"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:hintEnabled="false"
+            android:clickable="true"
+            app:boxBackgroundColor="?colorPrimary"
+            app:boxCornerRadiusBottomStart="16dp"
+            android:layout_height="wrap_content"
+            android:focusable="true">
+            <com.google.android.material.textfield.TextInputEditText
+                android:textColor="?colorOnPrimary"
+                android:layout_width="match_parent"
+                android:focusable="false"
+                tools:text="Hello World"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_clock_receiver"
+            android:layout_width="wrap_content"
+            tools:text="12:00"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
